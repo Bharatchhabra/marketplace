@@ -1,0 +1,57 @@
+.banner_bg{
+    // background-image: url("../../assets/images/bg2.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    // opacity: 0.75;
+    position: relative;
+}
+.MuiPaper-root {
+    background-color: transparent!important;
+}
+.card_bg{
+    width: 345px;
+}
+.text_content{
+    text-align: left!important;
+    padding: 80px!important;
+    h4{
+        color: #000;
+    }
+    .span_text{
+        color: rgba(44, 40, 40, 0.616);
+        font-size: 20px;
+        padding: 20px 0!important;
+    }
+}
+.btns{
+    margin: 40px 0;
+    .explore_btn{
+        background-color:  #24a0ed!important;
+        color: #fff!important;
+        padding: 8px 30px!important;
+    }
+    .create_btn{
+        border-color:  #24a0ed!important;
+        color: #24a0ed!important;
+        padding: 8px 30px!important;
+    }
+}
+@media (min-width: 960px){
+.makeStyles-inputInput-7 {
+    width: 74ch!important;
+    box-shadow: 8px 1px 14px #ece3e3!important;
+}
+}
+.card_bg{
+    width: 440px!important;
+    margin: 20px 0;
+    .MuiCardHeader-content{
+        text-align: left!important;
+    .MuiTypography-colorTextSecondary {
+        color: #24a0ed!important;
+    }
+    }
+}
